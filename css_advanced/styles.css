@@ -130,7 +130,6 @@ header nav ul {
     border-radius: 5px;
     display: inline;
     font-weight: bold;
-    
 
 }
 
@@ -139,6 +138,7 @@ h2 {
     margin-bottom: 40px;
     padding: 50px 20px;
     font-weight: lighter;
+    word-spacing: normal;
 }
 
 .highlight {
@@ -168,15 +168,169 @@ h2 {
     color: #fff;
  }
 
- h3 {
-    color: #fff;
- }
+
+ .pros-name {
+    font-family: 'Source Sans Pro';
+    color: white;
+    font-weight: 900;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 392px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+  }
+  
+  .Person{margin-left: 40px;}
+  .person-name{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+  }
+  .person-weather{
+    font-family: 'Source Sans Pro';
+    font-size: 22px;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .tutorials{
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  
+  .popular-tutorials{
+    display: flex; 
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .author{
+    width: 30px;
+    height:30px;
+    border: 50%;
+  }
+  .author-name{
+    margin-top: 5px;
+  }
+  .flex-box{
+    display: flex; 
+    gap: 10px;
+  }
+  .icon-color{
+    color: #C271FF;
+  }
+
+  
+  .highlight2 {
+    color: #C271FF;
+    font-weight: bold;
+}
 
 
+.video-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 32px;
+    letter-spacing: 0px;     
+    word-spacing: 5px;       
+    line-height: 1.5;         
+    margin: 50px;             
+    padding: 5px;            
+    text-indent: 30px;        
+    white-space: pre-line;    
 
+  }
 
+  .most-wanted {
+    display: flex; 
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
 
+  .video-descript {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    color: #07162980;
+    width:255px;
 
+  
+  }
+
+  .flex-box {
+    display: flex; 
+    gap: 10px;
+  }
+
+  .creator {
+    width: 30px;
+    height:30px;
+    border: 50%;
+  }
+  .creator-name {
+    margin-top: 5px;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .fa-solid {
+    color: #C271FF;
+  }
+
+  .duration {
+    margin-top: 0px;
+    color: #C271FF;
+  }
+
+  .section-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    font-weight: 300;
+    font-size: 32px;
+  }
+
+  .text-white{
+    color: #FFFFFF;
+  }
+
+  .justify-center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .membership p{
+    color: #FFFFFF;
+    line-height: 1.5;
+  }
+
+  .membership{
+    background-color: #071629;
+    padding-top:30px;
+    padding-bottom: 0px;
+    height: 502px;
+    margin: 10px;
+  }
+
+  .faq{
+    margin: 25px;
+    color: #07162980; 
+  }
+
+  .space-around{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin: 30px;
+  }
 
 /* -------------------------------------------------footer---------------------------------------------*/
 
