@@ -1,0 +1,92 @@
+body,html {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    color: white;
+
+}
+
+
+.part_3_dark {
+    background-image: url(/images/headphones_hero_2.jpg);
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    
+  }
+
+.Our-results{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    font-weight: 20;
+
+}
+
+.dot {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.dot-container {
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    margin: 15px;
+
+}
+
+.text h3 {
+    font-size: 46px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+.text h3, .text p {
+    margin: 5px 0;
+
+}
+
+.text p {
+    line-height: 1.5;
+    position: absolute;
+    top: 50%;
+    left: 50%;;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+}
+
+.dot-container img {
+    width: 100%; /* Adjust width as needed */
+    height: auto; /* Keeps the aspect ratio */ 
+    margin-top: 20px;
+}

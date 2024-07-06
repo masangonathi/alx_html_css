@@ -1,0 +1,162 @@
+/*-----------------------------------------------header-----------------------------------------------*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro';
+}
+
+
+header nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+header nav ul li a:hover {
+    color: #FF6565; /* Change color on hover for better UX */
+    opacity: 0.9;
+}
+
+.container {
+    background-image: url(/images/headphones_hero_1.jpg);
+    padding-top: 30px; 
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+  }
+
+  nav {
+    display: flex; /* moved menu to the right*/
+    justify-content: space-between;
+  }
+
+  .topmenu {
+    display: flex;
+    margin-right: 10%;
+    gap: 40px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .logo {
+    margin-left: 10%;
+    width: 167.02px;
+    height: 29.46px;
+    margin-top: 50px;
+  }
+
+  .h1-part {
+    text-align: center;
+    margin-bottom: 80%;
+  }
+
+  .section-one {
+    margin-top: 600px;
+  }
+
+  .first-heading {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+    margin-top: 0px; 
+
+    }
+
+    .first-para {
+        font-family: 'Source Sans Pro';
+        color: #FFFFFF;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+
+    .button-part {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+        
+        
+    }
+    
+    .call-button {
+        font-size: 16px;
+        padding: 10px 20px;
+        background-color: #FF6565;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        display: inline;
+        font-family: 'Source Sans Pro';
+    }
+    
+    .call-button:hover {
+        background-color: #0056b3; /* Darker shade for hover effect */
+    }
+
+    .second-para {
+        font-family: 'Source Sans 3';
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        font-size: 16px;
+        font-style: normal;
+        
+    }
+
+    main {
+
+         text-align: center;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+         color: black;
+    }
+
+    /*----------------------------------------------------------------Mobile Styles---------------------------------------------------------------------------*/
+
+    @media only screen and (max-width: 480px) {
+        nav ul {
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .first-heading {
+            font-size: 2em;
+        }
+    
+        .first-para, .second-para {
+            font-size: 1em;
+        }
+    
+        .button-part {
+            margin-top: 20px;
+        }
+
+        .topmenu {
+            display: none;
+        }
+
+        header {
+            padding: 20px;
+        }
+
+
+    }

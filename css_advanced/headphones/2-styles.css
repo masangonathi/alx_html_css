@@ -1,0 +1,57 @@
+body,html {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+}
+
+
+.part_1_what_we_do{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Source Sans 3';
+    font-size: 16px;
+    font-weight: 20;
+
+}
+
+.part_2_icons {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+.icon-container {
+    align-items: center;
+    padding: 50px;
+}
+
+.text h3, .text p {
+    margin: 30px 0;
+}
+
+.text p {
+    line-height: 1.5;
+}
+
+.icon-container img {
+    width: 80px; /* Adjust width as needed */
+    height: auto; /* Keeps the aspect ratio */
+    margin-bottom: 10px;
+}
